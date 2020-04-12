@@ -100,15 +100,15 @@
 }
 
 .basket::before {
-  background-image: url("/img/icons/Icon-Basket.png");
+  background-image: url("../img/icons/Icon-Basket.png");
 }
 
 .laptop::before {
-  background-image: url("/img/icons/Icon-Laptop.png");
+  background-image: url("../img/icons/Icon-Laptop.png");
 }
 
 .locked::before {
-  background-image: url("/img/icons/Icon-Locked.png");
+  background-image: url("../img/icons/Icon-Locked.png");
 }
 
 .services-item-title {
