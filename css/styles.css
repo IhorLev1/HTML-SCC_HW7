@@ -100,15 +100,15 @@
 }
 
 .basket::before {
-  background-image: url("../img/icons/Icon-Basket.png");
+  background-image: url("./img/icons/Icon-Basket.png");
 }
 
 .laptop::before {
-  background-image: url("../img/icons/Icon-Laptop.png");
+  background-image: url("./img/icons/Icon-Laptop.png");
 }
 
 .locked::before {
-  background-image: url("../img/icons/Icon-Locked.png");
+  background-image: url("./img/icons/Icon-Locked.png");
 }
 
 .services-item-title {
@@ -130,7 +130,7 @@
 
 .contacts-box {
   background-color: #222222;
-  background-image: url(/img/Background-map.png);
+  background-image: url(./img/Background-map.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   min-height: 676px;
