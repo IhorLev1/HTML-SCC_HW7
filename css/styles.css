@@ -160,7 +160,6 @@
   box-sizing: border-box;
   height: 52px;
   width: 456px;
-  text-transform: uppercase;
   font-size: 14px;
   color: rgb(187, 187, 187);
   font-family: "Montserrat_bold", sans-serif;
@@ -174,6 +173,10 @@
 
 .form-box input:nth-last-child(-n + 2) {
   margin-bottom: 0;
+}
+input::placeholder,
+textarea::placeholder {
+  text-transform: uppercase;
 }
 
 .form-box {
@@ -190,14 +193,14 @@
   box-sizing: border-box;
 }
 
-.form-box input[name="user_name"]:focus:invalid,
-.form-box input[type="email"]:focus:invalid,
-.form-box textarea[name="body"]:focus:invalid {
+.form-box input[name="user_name"]:invalid:not(:focus):not(:placeholder-shown),
+.form-box input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
+.form-box textarea[name="body"]:invalid:not(:focus):not(:placeholder-shown) {
   outline: 2px solid #ff0000;
 }
-.form-box input[name="user_name"]:focus:valid,
-.form-box input[type="email"]:focus:valid,
-.form-box textarea[name="body"]:focus:valid {
+.form-box input[name="user_name"]:valid,
+.form-box input[type="email"]:valid,
+.form-box textarea[name="body"]:valid {
   outline: 2px solid #008000;
 }
 
