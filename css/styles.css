@@ -161,7 +161,6 @@
   height: 52px;
   width: 456px;
   font-size: 14px;
-  color: rgb(187, 187, 187);
   font-family: "Montserrat_bold", sans-serif;
   border-radius: 4px;
   padding-left: 22px;
@@ -191,6 +190,7 @@ textarea::placeholder {
   margin: 0;
   padding-top: 15px;
   box-sizing: border-box;
+  resize: none;
 }
 
 .form-box input[name="user_name"]:invalid:not(:focus):not(:placeholder-shown),
@@ -215,4 +215,5 @@ button {
   font-family: "Montserrat_bold", sans-serif;
   color: #ffffff;
   text-transform: uppercase;
+  cursor: pointer;
 }
