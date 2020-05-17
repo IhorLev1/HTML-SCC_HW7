@@ -208,7 +208,7 @@ button {
   width: 240px;
   height: 66px;
   background-color: rgb(254, 209, 54);
-  border-radius: 1px solid;
+  border-radius: 1px solid #ffffff;
   border: none;
   border-radius: 3px;
   font-size: 18px;
